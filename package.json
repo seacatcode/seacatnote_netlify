@@ -1,0 +1,18 @@
+{
+  "name": "seacatnote_netlify",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build & node test/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "jszip": "^3.10.1"
+  }
+}
